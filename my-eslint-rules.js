@@ -45,8 +45,11 @@ const myEslintRules = {
       { blankLine: 'always', prev: [ 'block', 'block-like' ], next: '*' }
     ],
     'newline-per-chained-call': [ 'warn', { ignoreChainWithDepth: 1 }], // 함수 chain 할 때 줄바꿈 여부
+    'object-curly-newline': [ 'warn', { multiline: true, consistent: true }], // Object 의 {} 앞뒤 줄바꿈 여부
+    'object-property-newline': [ 'warn', { allowAllPropertiesOnSameLine: true }], // Object 내부의 Property 들의 줄바꿈 여부
+    'arrow-spacing': [ 'warn', { before: true, after: true }], // 화살표 함수의 화살표 앞뒤 띄어쓰기 여부
     'no-multiple-empty-lines': [ 'warn', { max: 1 }], // 내용 없는 라인의 허용 개수
-    'no-unused-vars': 'warn', // 선언된 변수 중 사용되지 않은 변수 허용 여부
+    'no-unused-vars': 'warn' // 선언된 변수 중 사용되지 않은 변수 허용 여부
     // curly: [ 'warn', 'multi-or-nest', 'consistent' ], // 명령어(if, while 등) 뒤의 {} 생략 가능 여부
     // 'brace-style': [ 'warn', '1tbs', { allowSingleLine: true }],
     // 'padded-blocks': [ 'warn', 'never', { allowSingleLineBlocks: true }],
@@ -58,7 +61,7 @@ const myEslintRules = {
     // 'linebreak-style': 'off', // Line Break 를 Window(CRLF), Mac(LF) 허용 여부
     // 'no-undef': 'off', // 정의되지 않은 변수가 파일 내에 있을 경우, 점검 여부
     // 'no-alert': 'off', // alert 사용 허용 여부
-    // 'no-console': 'off' // console 사용 허용 여부
+    // 'no-console': 'off', // console 사용 허용 여부
     // 'no-debugger': 'off' // debugger 사용 허용 여부
   }
 }
