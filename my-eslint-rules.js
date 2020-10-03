@@ -40,7 +40,8 @@ const myEslintRules = {
       'warn',
       { blankLine: 'always', prev: [ 'import', 'cjs-import', 'case', 'default' ], next: '*' },
       { blankLine: 'never', prev: [ 'import', 'cjs-import' ], next: [ 'import', 'cjs-import' ] },
-      { blankLine: 'always', prev: '*', next: [ 'try', 'return', 'class', 'export', 'cjs-export', 'block', 'block-like' ] }
+      { blankLine: 'always', prev: '*', next: [ 'try', 'class', 'export', 'cjs-export', 'block', 'block-like' ] },
+      { blankLine: 'always', prev: [ 'block', 'block-like' ], next: '*' }
     ],
     'no-multiple-empty-lines': [ 'warn', { max: 1 }], // 내용 없는 라인의 허용 개수
     'no-unused-vars': 'warn', // 선언된 변수 중 사용되지 않은 변수 허용 여부
