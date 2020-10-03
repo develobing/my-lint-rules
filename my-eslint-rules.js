@@ -40,6 +40,7 @@ const myEslintRules = {
       'warn',
       { blankLine: 'always', prev: [ 'import', 'cjs-import', 'case', 'default' ], next: '*' },
       { blankLine: 'never', prev: [ 'import', 'cjs-import' ], next: [ 'import', 'cjs-import' ] },
+      { blankLine: 'any', prev: [ 'cjs-import' ], next: [ 'let', 'const' ] },
       { blankLine: 'always', prev: '*', next: [ 'try', 'class', 'export', 'cjs-export', 'block', 'block-like' ] },
       { blankLine: 'always', prev: [ 'block', 'block-like' ], next: '*' }
     ],
