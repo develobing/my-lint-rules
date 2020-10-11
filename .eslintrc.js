@@ -50,7 +50,6 @@ module.exports = {
       'always',
       { block: { exceptions: ['*'], balanced: true } },
     ], // 주석 표시 앞 / 뒤에 띄어쓰기 여부
-    'newline-per-chained-call': ['warn', { ignoreChainWithDepth: 1 }], // 함수 chain 할 때 줄바꿈 여부
     'object-curly-newline': ['warn', { consistent: true }], // Object 의 {} 앞뒤 줄바꿈 여부
     'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }], // Object 내부 Property 들의 줄바꿈 여부
     'array-bracket-newline': ['warn', 'consistent'], // Array 의 [] 앞뒤 줄바꿈 여부
