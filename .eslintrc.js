@@ -84,6 +84,7 @@ module.exports = {
       { blankLine: 'any', prev: ['cjs-import'], next: ['let', 'const'] },
       { blankLine: 'any', prev: ['let', 'const'], next: ['let', 'const'] },
     ], // 특정 명령어 뒤에 띄어쓰기 추가하는지 여부
+    'eol-last': ['warn', 'always'], // 파일 마지막에 공백 줄 추가 여부
     // curly: ['warn', 'multi-or-nest', 'consistent'], // 명령어(if, while 등) 뒤의 {} 생략 가능 여부
     // 'max-len': ['warn', 80, { ignoreUrls: true, ignoreComments: true }], // 한 줄의 최대 글자 수
     // 'linebreak-style': 'off', // Line Break 를 Window(CRLF), Mac(LF) 허용 여부
