@@ -1,20 +1,20 @@
 {
-  "name": "my-eslint-rules",
+  "name": "my-lint-rules",
   "version": "1.0.0",
-  "description": "My ESLint rules",
+  "description": "My ESLint & Prettier rules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philoin88/my-eslint-rules.git"
+    "url": "git+https://github.com/develobing/my-lint-rules.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/philoin88/my-eslint-rules/issues"
+    "url": "https://github.com/develobing/my-lint-rules/issues"
   },
-  "homepage": "https://github.com/philoin88/my-eslint-rules#readme"
+  "homepage": "https://github.com/develobing/my-lint-rules#readme"
 }

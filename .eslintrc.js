@@ -2,7 +2,10 @@ module.exports = {
   env: {
     es2020: true,
   },
-  extends: '',
+  extends: [
+    // "eslint:recommended",
+    // "plugin:prettier/recommended",
+  ],
   parserOptions: {
     ecmaVersion: 11,
   },
